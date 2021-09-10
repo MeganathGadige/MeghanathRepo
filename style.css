@@ -1,0 +1,91 @@
+*{
+    margin :0;padding: 0;box-sizing: border-box;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+header{
+    width :100%; height:100vh;
+    background-image:url('D:\Images/Varanasi1.jpg');
+    background-image: linear linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1));
+    background-size: cover;
+}
+nav{
+    width: 100;height: 15vh;
+    background: rgba(0,0,0,0.3); 
+    color: whitesmoke; display:flex; justify-content:space-between;
+    align-items: center;text-transform: uppercase;
+}
+nav .logo{
+    width:25%; text-align: center;color: #beece3;
+}
+nav .menu{
+    width: 40%;
+    display:flex; justify-content: space-around;
+}
+nav .menu a{
+    width: 25%; text-decoration: none;
+    color: #beece3;
+    font-weight: bold;
+}
+main{
+    width: 100%;
+    height:85vh;
+    display: flex;
+    justify-content: center; text-align: center;
+    align-items: center; color: whitesmoke;
+}
+section{
+
+}
+section h3{
+    font-size: 45px; font-weight: 300; letter-spacing: 3px;
+    text-shadow: 3px 1px 2px black;
+}
+section h1{
+    margin: 20px 0 10px 0;
+    text-shadow: 2px 1px 2px black;
+
+}
+section h2{
+    margin: 25px 0 20px 0;
+    font-size: 40px;font-weight: 700; text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section p{
+    font-size: 25px;
+    color: #eee;
+    text-shadow: 1px 1px 1px black;
+}
+section a{
+    padding: 5px 30px;
+    border-radius: 15px;
+    outline: none;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+section .brute1{
+    background:white;
+    color: #000;
+}
+section .brute2{
+    background: #00b894;
+    color: white;
+}
+.change_content:after{
+    content:'';
+    animation:changetext 10s infinite linear;
+    color: #078d72;
+}
+@keyframes changetext{
+    0%{content:"Agra";}
+    15%{content:"Varanasi"}
+    20%{content:"Darjeeling"}
+    35%{content:"Goa"}
+    45%{content:"Mumbai"}
+    60%{content:"Kerala"}
+    75%{content:"Hyderabad"}
+    85%{content:"Chennai"}
+    100%{content:"Vizag"}
+}
