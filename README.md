@@ -46,4 +46,3 @@
   * key-frames --> To keep changing the text .
   * text-transform --> To convert the lower case letters to the upper case .
   * box-sizing --> To create a required box pattern to the html file .
-  * 
