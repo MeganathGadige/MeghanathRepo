@@ -19,7 +19,6 @@
  * The anchor tags are added to use links to switch for further page .
  * Created some icons using padding and border-radius to some anchor tags to decorate them in some attractive way .
  * Some changing-texts have been added to see the different places where to be arrived and will being changed ,which are set accordingly .
---
 ### Tags & Styles Used
  #### HTML
     * To import  external CSS - <link rel="stylesheet" type="text/css" href="style.css">
