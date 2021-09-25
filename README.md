@@ -8,7 +8,7 @@
  * What are the additional styling tags used in this project?
  ---
 ### Title :
-  Historic Places of India
+  TRAVEL WEBSITE
 ---
 ### Description
  * The project was created by using external CSS to the respective html file .
